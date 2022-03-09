@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Architects+Daughter & family= Passion+One &família = Sriracha & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Pacifico & display=swap');
+
+@font-face {
+    font-family: love;
+    src: url(fonte/Maria_lucia.ttf) format('truetype');
+}
+
+:root{
+    --font1 :Verdana, Geneva, Tahoma, sans-serif;
+    --font2 :'Passion One', cursiva;
+    --font03: 'Pacifico', cursiva;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ body{
+     min-height: 100%;
+     font-family: var(--font1);
+     
+     
+ }
+
+
+ header{
+     background-color: black;
+     height: 250px;
+     color: white;
+     text-align: center;
+ }
+ a{
+     text-decoration: none;
+     font-weight: bolder;
+     color: white;
+ }
+ header > h1{
+     padding-top: 50px;
+     font-variant:small-caps ;
+     font-family: var(--font2);
+     font-size:  3.5em;
+ }
+ header > p{
+     padding-bottom: 50px;
+ }
+ a:hover{
+     text-decoration: underline;
+
+ }
+ section{
+     padding-top: 10vh;
+     padding-bottom: 10vh;
+     line-height: 2em;
+     font-size: 3vh;
+     padding-left: 30px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+     
+
+ }
+ section > p{
+     padding-bottom: 1em;
+ }
+  p{
+     font-family: var(--font03);
+
+ }
+ .imagen > p{
+     background-color: rgba(0, 0, 0, 0.411);
+     display: inline-block;
+     padding: 3px;
+     text-shadow: 1px 1px 0px black;
+     
+ }
+ .normal{
+     background-color: white;
+     color: black;
+ }
+ .imagen{
+     background-color: rgba(41, 41, 41, 0.76);
+     color: white;
+     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+     background-attachment: fixed;
+
+ }
+ #img01{
+     background-image: url('../projeto-cordel/imagens/background001.jpg');
+     background-position: right center;
+     box-shadow: rgb(0, 0, 0) solid -2px;
+     background-size: cover;
+ }
+ #img02{
+     background-image: url('../projeto-cordel/imagens/background002.jpg');
+     background-position: right center;
+     background-size: cover;
+ }
+ footer{
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 10px;
+ }
+
+  
+  
